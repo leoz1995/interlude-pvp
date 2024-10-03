@@ -1,0 +1,46 @@
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  width: 90vw;
+  height: 20vw;
+  border-radius: 0.5vw;
+  margin: 2.5vw 0 2.5vw 5vw;
+  box-sizing: border-box; /* Garante que o padding e a border sejam incluídos no width e height */
+}
+.image {
+  width: 25vw;
+  height: auto;
+}
+.full-width {
+  width: 100%;
+}
+.hide-img {
+  display: none;
+}
+#home-conteiner-status {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  border-radius: 0.5vw;
+  background-color: rgba(0, 0, 0, 0.4); /* Fundo preto com 40% de opacidade */
+  box-shadow: 0.7vw 0.8vw 0.9vw rgba(35, 35, 35, 0.6);
+  width: 10vw;
+  height: 12vw;
+}
+#home-conteiner-status h1 {
+  color: white;
+  font-size: 0.8vw;
+  margin: 0.5vw;
+}
+#home-conteiner-status h2 {
+  font-family: 'Menu_Font';
+  color: rgb(36, 209, 36);
+  font-size: 0.8vw;
+}
+#home-conteiner-text {
+  overflow-y: auto;
+  width: 45vw;
+}

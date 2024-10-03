@@ -1,0 +1,72 @@
+.page-title{
+  font-family: 'Principal_Font';
+  text-align: right;
+  margin: 1vw 8vw;
+  color: white;
+}
+#estatisticas{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 5vw;
+  width: 90vw;
+  overflow-x: hidden;
+}
+.card{
+  text-align: center;
+  padding: 1vw;
+  width: 40vw;
+  height: 24vw;
+  border-radius: 0.8vw;
+  background-color: rgba(0, 0, 0, 0.2); /* Fundo branco com 50% de opacidade */
+}
+.ranking-title {
+  font-family: "Principal_Font";
+  color: white;
+  font-size: 2.5vw;
+  margin: 1vw 0;
+}
+.ranking-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ranking-table th,
+.ranking-table td {
+  border: 0.1vw solid black;
+  padding: 0.5vw;
+  text-align: left;
+}
+
+.ranking-table th {
+  background-color: rgba(0, 0, 0, 0.6); /* Escurece o fundo dos cabeçalhos */
+  color: white;
+}
+
+.ranking-table tr:nth-child(even) {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.3
+  ); /* Altere a cor de fundo das linhas pares */
+}
+
+.ranking-table tr:nth-child(odd) {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.4
+  ); /* Altere a cor de fundo das linhas ímpares */
+}
+
+.ranking-table td {
+  color: white;
+}
+tr {
+  font-family: "Principal_Font";
+  color: white;
+  font-size: 1.2vw;
+  margin: 1vw 0;
+}

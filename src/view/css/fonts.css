@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Principal_Font';
+  src: url(../../assets/fonts/Principal_Font.otf);
+}
+@font-face {
+  font-family: 'Menu_Font';
+  src: url(../../assets/fonts/Menu_Font.ttf);
+}
+@font-face {
+  font-family: 'Notice_Font';
+  src: url(../../assets/fonts/Notice_Font.ttf);
+}
+@font-face {
+  font-family: 'Text_Font';
+  src: url(../../assets/fonts/Text_Font.ttf);
+}

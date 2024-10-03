@@ -1,0 +1,23 @@
+@import url('./creditos.css');
+@import url('./vote.css');
+footer {
+  text-align: center;
+  width: 100vw;
+  margin-top: 2vw;
+}
+footer p{
+  font-family: 'Text_Font';
+  font-size: 1.2vw;
+  color: white;
+  margin: 0.3vw 0 0 0;
+}
+#boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  width: 100vw;
+  height: 20vw;
+  margin-top: 2vw;
+  background-color: rgba(0, 0, 0, 0.4); /* Fundo branco com 50% de opacidade */
+}

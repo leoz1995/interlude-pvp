@@ -1,0 +1,33 @@
+#vote-box {
+  display: flex;
+  flex-direction: row;
+  width: 45vw;
+}
+#vote_info {
+  width: 30vw;
+}
+#vote_info h4{
+    font-family: 'Principal_Font';
+    font-size: 3vw;
+    color: white;
+}
+#vote_info p{
+    font-family: 'Text_Font';
+    font-size: 1.6vw;
+    color: white;
+}
+.voto_render {
+  padding: 0.5vw 0.5vw 0 0.5vw;
+  width: 12vw;
+  height: auto;
+}
+.top-img{
+  margin: 0.2vw ;
+  width: 12vw;
+  opacity: 0.6;
+}
+.top-img:hover{
+  width: 12.5vw;
+  opacity: 1;
+  cursor: pointer;
+}

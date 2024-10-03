@@ -1,0 +1,89 @@
+/* CSS Ajustado */
+
+.container {
+  overflow: hidden; /* Esconde qualquer conteúdo que ultrapasse o container */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw; /* Largura da viewport */
+  height: 30vw;
+  border-radius: 0.5vw;
+}
+
+.slides {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100vw; /* Ajustado para 100% */
+  transition: transform 1s ease-in-out; /* Animação de transição suave */
+}
+
+.image {
+  border: 0.1vw solid white;
+  border-radius: 0.2vw;
+  width: 90vw; /* Ajustado para 100% */
+  height: 30vw;
+  object-fit: cover;
+  object-position: center;
+  flex-shrink: 0; /* Impede que a imagem encolha */
+}
+
+.content {
+  margin-left: -85vw;
+  display: flex;
+  flex-direction: column;
+  width: 4vw;
+  color: #fff;
+  text-align: left;
+  box-sizing: border-box;
+  border-radius: 0.5vw;
+}
+.media_icons {
+  font-size: 4vw;
+}
+.media_icons:hover {
+  font-size: 5vw;
+  margin: 0.5vw;
+}
+
+/* Ícone do Instagram */
+.fa-instagram {
+  color: #e4405f; /* Cor padrão do Instagram */
+  font-size: 2rem; /* Tamanho do ícone */
+  transition: color 0.3s ease, transform 0.3s ease; /* Transições suaves */
+}
+
+/* Ícone do Facebook */
+.fa-facebook-f {
+  color: #1877f2; /* Cor padrão do Facebook */
+  font-size: 2rem; /* Tamanho do ícone */
+  transition: color 0.3s ease, transform 0.3s ease; /* Transições suaves */
+}
+
+/* Ícone do YouTube */
+.fa-youtube {
+  color: #ff0000; /* Cor padrão do YouTube */
+  font-size: 2rem; /* Tamanho do ícone */
+  transition: color 0.3s ease, transform 0.3s ease; /* Transições suaves */
+}
+
+/* Efeitos de hover para todos os ícones */
+.fa-instagram:hover,
+.fa-facebook-f:hover,
+.fa-youtube:hover {
+  transform: scale(1.1); /* Aumenta o tamanho do ícone */
+}
+
+/* Efeitos específicos de hover para cada ícone */
+.fa-instagram:hover {
+  color: #d62976; /* Cor personalizada para o Instagram no hover */
+}
+
+.fa-facebook-f:hover {
+  color: #3b5998; /* Cor personalizada para o Facebook no hover */
+}
+
+.fa-youtube:hover {
+  color: #c4302b; /* Cor personalizada para o YouTube no hover */
+}

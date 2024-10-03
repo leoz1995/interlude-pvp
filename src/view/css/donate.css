@@ -1,0 +1,38 @@
+#donate-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 70vh;
+  font-family: 'Principal_Font', sans-serif; /* Substitua pela fonte desejada */
+  color: yellow; /* Cor das fontes */
+  padding: 20px; /* Espaçamento interno */
+}
+#donate-page h1 {
+  color: white;
+}
+.donation-table {
+  width: 60vw;
+  list-style-type: none; /* Remove marcadores da lista */
+  padding: 0; /* Remove espaçamento interno */
+  border: 1px solid yellow; /* Borda da tabela */
+  border-radius: 8px; /* Arredondamento dos cantos */
+}
+
+.table-header,
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid yellow; /* Borda inferior das células */
+}
+
+.table-header {
+  font-weight: bold; /* Destaque para o cabeçalho */
+  background-color: rgba(255, 255, 0, 0.1); /* Fundo leve para o cabeçalho */
+}
+
+.table-row:last-child {
+  border-bottom: none; /* Remove a borda inferior da última linha */
+}

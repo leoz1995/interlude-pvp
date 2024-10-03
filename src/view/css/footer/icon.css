@@ -1,0 +1,14 @@
+#icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  margin-right: 2vw;
+}
+.icons {
+  cursor: pointer;
+  transition: transform 0.2s; /* Animação suave */
+}
+.icons:hover {
+  transform: scale(1.3); /* Aumenta o tamanho ao passar o mouse */
+}

@@ -1,0 +1,42 @@
+#creditos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Notice_Font';
+  font-size: 1vw;
+  color: white;
+  margin: 0;
+}
+#leonardo_profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8vw;
+  width: 50vw;
+}
+.leonardo_img {
+  border-radius: 50vw;
+  width: 5vw;
+  height: 5vw;
+}
+.leonardo_follow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 7vw;
+  height: 2.6vw;
+  color: white;
+  font-family: 'Principal_Font';
+  border: 0.1vw solid #c3c3c3;
+  border-radius: 0.4vw;
+  cursor: pointer; /* Adiciona o cursor de pointer */
+  transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease; /* Animação suave para transformações e tamanho */
+  text-decoration: none; /* Remove o sublinhado padrão de links */
+}
+.leonardo_follow:hover {
+  color: yellow;
+  border: 0.1vw solid yellow;
+}

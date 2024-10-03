@@ -1,0 +1,90 @@
+#informations {
+  margin: 1vw 0.5vw 1vw 0.5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 99vw;
+  height: 40vw;
+  overflow: hidden;
+}
+.card_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.5vw;
+  cursor: pointer;
+  background-color: rgb(0, 0, 0); /* Fundo preto com 50% de opacidade */
+}
+.card_info h1 {
+  margin: 1vw;
+  font-family: "Principal_Font";
+  color: white;
+  text-align: center;
+}
+.infobox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  width: 95%;
+}
+#server_imgs{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+  height: 2.5vw;
+  margin: 1vw 2vw 1vw 2vw;
+}
+#server_imgs img{
+  width: 2.5vw;
+  height: 2.5vw;
+}
+#server_content{
+  width: 80%;
+  height: 100%;
+}
+.rate,.rules,.event{
+  overflow-y: scroll;
+  scrollbar-width: none; /* Escondendo o scroll da barra */
+}
+.rules {
+  position: relative;
+}
+
+.rules::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/informations/rules.png');
+  background-size: cover;
+  opacity: 0.4;
+  z-index: -2; /* Mantém a imagem no fundo */
+}
+.rate h6{
+  font-family: 'Text_Font';
+  color: #fff;
+  font-size: 0.8vw;
+}
+.rate p, .rules p{
+  margin: 0.5vw 1vw 0.5vw 1vw;
+  font-size: 0.8vw;
+  text-align: left;
+  font-family: 'Text_Font';
+  color: white;
+}
+.event span{
+  font-size: 0.8vw;
+  text-align: center;
+  font-family: 'Text_Font';
+  color: white;
+}
+hr {
+  background-color: white;
+  width: 80%;
+}
