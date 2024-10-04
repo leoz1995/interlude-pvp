@@ -8,7 +8,7 @@ export function Home() {
     <>
       <Banner
         text=""
-        imgUrl="../public/assets/images/renders/pvp.png"
+        imgUrl="/public/assets/images/renders/pvp.png"
         title="L2JBrasil"
         imgClass="image"
         webStatus={true}
