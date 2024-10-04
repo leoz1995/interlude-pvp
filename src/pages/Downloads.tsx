@@ -8,7 +8,7 @@ function DownloadFiles(url: string) {
 }
 export function Downloads() {
   const urls = [
-    { link: '/download/system.rar' },
+    { link: '/downloads/system.rar' },
     { link: 'patch_full' },
     { link: 'client_and_patch' },
   ];

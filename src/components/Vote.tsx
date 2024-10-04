@@ -11,10 +11,10 @@ function voteserver(url: string) {
 }
 export function Vote({ serverName }: ServerConfig) {
   const linkUrl = [
-    { url: 'https://www.google.com' },
+    { url: 'https://www.hopzone.com' },
     { url: 'https://www.l2jbrasil.com' },
-    { url: 'https://www.amazon.com' },
-    { url: 'https://www.facebook.com' },
+    { url: 'https://www.l2network.com' },
+    { url: 'https://www.topzone.com' },
   ];
   return (
     <>

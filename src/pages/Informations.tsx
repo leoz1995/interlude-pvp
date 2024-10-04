@@ -6,8 +6,8 @@ export function Informations() {
     <>
       <Banner
         text=""
-        imgUrl="../public/assets/images/renders/info.png"
-        title="Server - Informations"
+        imgUrl="/assets/images/renders/info.png"
+        title="L2JBrasil Comunidade"
         imgClass="image"
         webStatus={false}
       />
